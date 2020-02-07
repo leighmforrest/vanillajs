@@ -20,7 +20,7 @@ let dragStartIndex;
 
 // Insert list items into DOM
 function createList() {
-    // clear out ul
+    // clear out ul regardless
     draggable_list.innerHTML = '';
 
     [...richestPeople]
